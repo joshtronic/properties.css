@@ -31,7 +31,66 @@
 .cursor-inherit   { cursor: inherit   }
 /* }}} */
 /* {{{ display */
-
+.display-none               { display: none               }
+.display-box                { display: box                }
+.display-block              { display: block              }
+.display-flex               { display: flex               }
+.display-flex-box           { display: flex-box           }
+.display-inline             { display: inline             }
+.display-inline-block       { display: inline-block       }
+.display-inline-flex        { display: inline-flex        }
+.display-inline-table       { display: inline-table       }
+.display-list-item          { display: list-item          }
+.display-table              { display: table              }
+.display-table-caption      { display: table-caption      }
+.display-table-cell         { display: table-cell         }
+.display-table-column       { display: table-column       }
+.display-table-column-group { display: table-column-group }
+.display-table-footer-group { display: table-footer-group }
+.display-table-header-group { display: table-header-group }
+.display-table-row          { display: table-row          }
+.display-table-row-group    { display: table-row-group    }
+.display-inherit            { display: inherit            }
+/* }}} */
+/* {{{ float */
+.float-left    { float: left    }
+.float-right   { float: right   }
+.float-none    { float: none    }
+.float-inherit { float: inherit }
+/* }}} */
+/* {{{ font-style */
+.font-style-normal  { font-style: normal  }
+.font-style-italic  { font-style: italic  }
+.font-style-oblique { font-style: oblique }
+.font-style-inherit { font-style: inherit }
+/* }}} */
+/* {{{ font-variant */
+.font-variant-normal     { font-variant: normal      }
+.font-variant-small-caps { font-variant: small-caps  }
+.font-variant-inherit    { font-variant: inherit     }
+/* }}} */
+/* {{{ font-weight */
+.font-weight-normal  { font-weight: normal  }
+.font-weight-bold    { font-weight: bold    }
+.font-weight-bolder  { font-weight: bolder  }
+.font-weight-lighter { font-weight: lighter }
+.font-weight-100     { font-weight: 100     }
+.font-weight-200     { font-weight: 200     }
+.font-weight-300     { font-weight: 300     }
+.font-weight-400     { font-weight: 400     }
+.font-weight-500     { font-weight: 500     }
+.font-weight-600     { font-weight: 600     }
+.font-weight-700     { font-weight: 700     }
+.font-weight-800     { font-weight: 800     }
+.font-weight-900     { font-weight: 900     }
+.font-weight-inherit { font-weight: inherit }
+/* }}} */
+/* {{{ position */
+.position-static   { position: static   }
+.position-absolute { position: absolute }
+.position-fixed    { position: fixed    }
+.position-relative { position: relative }
+.position-inherit  { position: inherit  }
 /* }}} */
 
 /*
@@ -122,14 +181,10 @@ counter-increment
 counter-reset
 direction
 empty-cells
-float
 font
 font
 font-family
 font-size
-font-style
-font-variant
-font-weight
 @font-face
 font-size-adjust
 font-stretch
@@ -185,7 +240,6 @@ page-break-before
 page-break-inside
 perspective
 perspective-origin
-position
 punctuation-trim
 quotes
 resize
