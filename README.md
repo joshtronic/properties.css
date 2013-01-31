@@ -1,4 +1,4 @@
-properties.css
+CSS Properties
 ==============
 
-CSS classes for CSS properties
+CSS classes for CSS properties.
