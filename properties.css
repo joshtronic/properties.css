@@ -6,7 +6,7 @@
  */
 
 /* {{{ clear */
-.clear       { clear: both  }
+.clear-both  { clear: both  }
 .clear-left  { clear: left  }
 .clear-right { clear: right }
 /* }}} */
@@ -28,7 +28,7 @@
 .cursor-text      { cursor: text      }
 .cursor-w-resize  { cursor: w-resize  }
 .cursor-wait      { cursor: wait      }
-.cursor-inherit   { cursor: auto      }
+.cursor-inherit   { cursor: inherit   }
 /* }}} */
 /* {{{ display */
 
